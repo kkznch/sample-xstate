@@ -1,0 +1,28 @@
+name: Testing
+description: Test with type check, lint, format, test
+
+runs:
+  using: composite
+  steps:
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18.12.1
+
+    - name: Install dependencies
+      run: yarn install
+      shell: bash
+
+    - name: type check
+      run: yarn type:check
+      shell: bash
+
+    - name: lint
+      run: |
+        yarn lint
+        yarn format:check
+      shell: bash
+
+    # - name: test
+    #   run: yarn test
+    #   shell: bash
