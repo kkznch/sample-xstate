@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@xstate/react':
     specifier: ^4.1.0
-    version: 4.1.0(@types/react@18.2.67)(react@18.2.0)(xstate@5.9.1)
+    version: 4.1.0(@types/react@18.2.69)(react@18.2.0)(xstate@5.9.1)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^20.11.29
     version: 20.11.30
   '@types/react':
-    specifier: ^18.2.67
-    version: 18.2.67
+    specifier: ^18.2.69
+    version: 18.2.69
   '@types/react-dom':
     specifier: ^18.2.22
     version: 18.2.22
@@ -772,11 +772,11 @@ packages:
   /@types/react-dom@18.2.22:
     resolution: {integrity: sha512-fHkBXPeNtfvri6gdsMYyW+dW7RXFo6Ad09nLFK0VQWR7yGLai/Cyvyj696gbwYvBnhGtevUG9cET0pmUbMtoPQ==}
     dependencies:
-      '@types/react': 18.2.67
+      '@types/react': 18.2.69
     dev: true
 
-  /@types/react@18.2.67:
-    resolution: {integrity: sha512-vkIE2vTIMHQ/xL0rgmuoECBCkZFZeHr49HeWSc24AptMbNRo7pwSBvj73rlJJs9fGKj0koS+V7kQB1jHS0uCgw==}
+  /@types/react@18.2.69:
+    resolution: {integrity: sha512-W1HOMUWY/1Yyw0ba5TkCV+oqynRjG7BnteBB+B7JmAK7iw3l2SW+VGOxL+akPweix6jk2NNJtyJKpn4TkpfK3Q==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -939,7 +939,7 @@ packages:
       - supports-color
     dev: true
 
-  /@xstate/react@4.1.0(@types/react@18.2.67)(react@18.2.0)(xstate@5.9.1):
+  /@xstate/react@4.1.0(@types/react@18.2.69)(react@18.2.0)(xstate@5.9.1):
     resolution: {integrity: sha512-Fh89luCwuMXIVXIua67d8pNuVgdGpqke2jHfIIL+ZjkfNh6YFtPDSwNSZZDhdNUsOW1zZYSbtUzbC8MIUyTSHQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -949,7 +949,7 @@ packages:
         optional: true
     dependencies:
       react: 18.2.0
-      use-isomorphic-layout-effect: 1.1.2(@types/react@18.2.67)(react@18.2.0)
+      use-isomorphic-layout-effect: 1.1.2(@types/react@18.2.69)(react@18.2.0)
       use-sync-external-store: 1.2.0(react@18.2.0)
       xstate: 5.9.1
     transitivePeerDependencies:
@@ -3011,7 +3011,7 @@ packages:
       punycode: 2.3.1
     dev: true
 
-  /use-isomorphic-layout-effect@1.1.2(@types/react@18.2.67)(react@18.2.0):
+  /use-isomorphic-layout-effect@1.1.2(@types/react@18.2.69)(react@18.2.0):
     resolution: {integrity: sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==}
     peerDependencies:
       '@types/react': '*'
@@ -3020,7 +3020,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.67
+      '@types/react': 18.2.69
       react: 18.2.0
     dev: false
 
